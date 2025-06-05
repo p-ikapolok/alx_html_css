@@ -42,3 +42,19 @@ aside {
     padding: 20px;
     background-color: #d9d9d9;
 }
+@media screen and (max-width: 768px) {
+    body.works_on_smartphone {
+        flex-direction: column;
+    }
+
+    body.works_on_smartphone main {
+        flex-direction: column;
+    }
+
+    body.works_on_smartphone article,
+    body.works_on_smartphone aside {
+        flex: 1;
+        width: 100%;
+    }
+}
+
