@@ -1,5 +1,3 @@
-/* styles.css */
-
 body {
     display: flex;
     flex-direction: column;
@@ -42,6 +40,7 @@ aside {
     padding: 20px;
     background-color: #d9d9d9;
 }
+
 @media screen and (max-width: 768px) {
     body.works_on_smartphone {
         flex-direction: column;
@@ -58,3 +57,102 @@ aside {
     }
 }
 
+.logo {
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header li {
+    margin-right: 1.5rem;
+}
+
+header a {
+    color: #2c3e50;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+header a:hover {
+    color: #3498db;
+}
+
+.aside-content {
+    margin-top: 1rem;
+}
+
+.resources-list {
+    list-style: none;
+    padding: 0;
+}
+
+.resources-list li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.resources-list a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.resources-list a:hover {
+    text-decoration: underline;
+}
+
+.quote {
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: #f8f9fa;
+    border-left: 3px solid #3498db;
+}
+
+footer a {
+    color: #3498db;
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+}
+
+th, td {
+    padding: 0.75rem;
+    text-align: left;
+}
+
+th {
+    background-color: #3498db;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+img {
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.02);
+}
+
+.twitter-tweet {
+    margin: 1rem auto;
+}
+footer p:last-child {
+    margin-top: 10px;
+    font-size: 0.8em;
+    color: #666;
+}
