@@ -1,0 +1,23 @@
+/* base.css */
+html {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: #4299e1;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #2b6cb0;
+    text-decoration: underline;
+}
