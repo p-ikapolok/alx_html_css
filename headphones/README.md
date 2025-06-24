@@ -57,5 +57,5 @@ It is fully functional and closely follows the UI/UX specifications.
 
 If you have any feedback or questions, feel free to reach out.
 
-📧 peter@example.com
+📧 ikapolokpeter480@gmail.com
 
