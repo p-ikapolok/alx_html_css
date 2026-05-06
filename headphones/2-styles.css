@@ -11,7 +11,7 @@ body {
 }
 
 .hero {
-  background-image: url('assets/headphones_hero_1.jpg'); /* replace with your actual image path */
+  background-image: url('headphones_hero_1.jpg'); /* replace with your actual image path */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -372,7 +372,7 @@ svg text:nth-of-type(2) {
 }
 
 .results {
-  background-image: url('assets/headphones_hero_2.jpg'); /* Replace with your actual file name and path */
+  background-image: url('headphones_hero_2.jpg'); /* Replace with your actual file name and path */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
