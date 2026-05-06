@@ -16,7 +16,7 @@ body {
 
 .hero {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-              url('assets/Object.png') center/cover no-repeat;
+              url('Object.png') center/cover no-repeat;
   color: white;
   text-align: center;
   padding: 120px 20px 80px;
